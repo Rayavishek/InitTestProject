@@ -37,7 +37,7 @@ exports.handle = function handle(client) {
   },
 
   prompt() {
-    client.addTextResponse('Hello world, I mean human')
+    client.addTextResponse('Hi Kuchi! Kuch bestest.. Tumi ki problem child?')
     client.done()
   }
 })
@@ -56,7 +56,7 @@ exports.handle = function handle(client) {
   client.runFlow({
     classifications: {
 			// map inbound message classifications to names of streams
-			greeting: 'greeting'
+			greeting: 'greeting',
 			goodbye: 'goodbye'
     },
    streams: {
