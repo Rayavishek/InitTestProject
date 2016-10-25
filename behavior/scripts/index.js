@@ -37,7 +37,7 @@ exports.handle = function handle(client) {
   },
 
   prompt() {
-    client.addTextResponse('Hi There! What\'s Up!')
+    client.addTextResponse('Hi Kuchi! Kuch bestest. Mostest. Foreverest! Hain...')
     client.done()
   }
 })
